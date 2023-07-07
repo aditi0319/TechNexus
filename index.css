@@ -188,6 +188,120 @@ nav .logo {
   }
 /* initiative end */
 
+/* domain starts */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+.domain {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* min-height: 100vh; */
+  flex-wrap: wrap;
+}
+.card{
+   
+    position: relative;
+    width: 500px;
+    height: 250px;
+    margin: 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-radius: 20px;
+    background: linear-gradient(135deg,#d97e0f,#252525);
+}
+.card img{
+    position: absolute;
+    bottom: 0;
+    /* height: 120%; */
+    left: 50%;
+    transform: translateX(-50%);
+    height: 250px;
+    transition: 0.5s;
+}
+.card:hover img{
+    left: 90%;
+    height: 200px;
+}
+.card .content{
+    position: relative;
+    width: 70%;
+    left: 20%;
+    padding:1rem;
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.5s;
+}
+.card:hover .content{
+    opacity: 1;
+    visibility: visible;
+    left: 0%;
+
+}
+.card .content h2{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    padding: 0 0 0.6rem 0;
+    line-height: 1rem;
+
+}.card .content p{
+    color: #fff;
+    font-size: 0.8rem;
+    padding: 0 0 0.5rem 0;
+}
+.card .content a{
+    position: relative;
+    display: inline-block;
+    color: #111;
+    padding: 10px 20px;
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    text-decoration: none;
+
+}
+@media (max-width:991px) {
+    .card{
+        position: relative;
+        width: auto;
+        max-width: 400px;
+        transition: 0.5s;
+        align-items: flex-start;
+    }
+    .card:hover{
+        height: 400px;
+    }
+    .card:hover img{
+        left:50% ;
+        height: 250px;
+    }
+    .card .content{
+        
+        width: 100%;
+        left: 0%;
+        padding:40px;
+    }
+}
+
+
+@media (max-width:420px) {
+    .card .content{
+        padding: 30px;
+    }
+    .card:hover img{
+       
+        height: 200px;
+    }
+}
+
+/* domain end */
 
 /* message By Founder  */
 
