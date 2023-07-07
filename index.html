@@ -7,12 +7,9 @@
     <link rel="stylesheet" href="index.css" />
 
     <!-- Google Font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-      rel="stylesheet"
-    />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600&family=roboto:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <!-- Font Awesome -->
     <link
       rel="stylesheet"
@@ -21,13 +18,16 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/fontawesome.min.css" integrity="sha512-SgaqKKxJDQ/tAUAAXzvxZz33rmn7leYDYfBP+YoMRSENhf3zJyx3SBASt/OfeQwBHA1nxMis7mM3EV/oYT6Fdw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <!-- LottieFlies -->
     <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
   </head>
   <body>
     <!-- Navbar -->
-    <nav class="container">
-      <a href="" class="logo heading">TechNexus</a>
+    <nav class="myContainer">
+      <a href="" class="logo roboto"><img src="./Image/l1-removebg-preview.png" alt="">TechNexus</a>
       <div class="mobile">
         <a href="./login.html"><i class="fa-solid fa-user"></i></a>
         <div class="menu"><i class="fa-solid fa-bars"></i></div>
@@ -40,24 +40,24 @@
       </div>
 
       <div class="navbtn">
-        <a href="" class="cabin btn">Login</a>
-        <a href="" class="cabin btn">Sign Up</a>
+        <a href="" class="cabin button">Login</a>
+        <!-- <a href="" class="cabin btn">Sign Up</a> -->
       </div>
     </nav>
     <!-- progressBar -->
     <div class="progressBar"></div>
-    <!-- progressBar -->
-    <!-- Navbar -->
+    <!-- progressBar End-->
+    <!-- Navbar End-->
 
     <!-- Hero Section -->
-    <div class="container center" style="min-height: 90vh">
+    <div class="myContainer center" style="min-height: 90vh">
       <section class="hero">
         <!-- heroContent -->
         <div class="heroContent">
-          <h1 class="heading">
+          <h1 class="roboto">
             Embark on a Daring Quest of Technological Wonders
           </h1>
-          <p class="paragraph">
+          <p class="poppins">
             Join techNexus today and connect with experts, expand your technical
             skills, collaborate on exciting projects, and attend exclusive
             events. Our community provides a platform for networking, learning,
@@ -65,7 +65,7 @@
             landscape.
           </p>
 
-          <div><a href="" class="btn cabin"> JOIN AS MEMBER</a></div>
+          <div><a href="" class="button cabin"> JOIN AS MEMBER</a></div>
         </div>
         <!-- heroIllustraion -->
         <div class="heroIllustraion center">
@@ -80,14 +80,149 @@
         </div>
       </section>
     </div>
+    <!-- HeroSection End -->
+    <!-- initiative -->
+<div class="myContainer center" style="min-height: 70vh;">
+  <div class="intiative">
+    <h1 class="heading">TechNexus Initiative: Empowering Innovation and Collaboration</h1>
+    <p class="Itext poppins">Step into the world ofTechNexus, where we ignite the spirit of innovation and foster collaborative breakthroughs. Our initiative is dedicated to empowering individuals and organizations to push the boundaries of technology. Join our vibrant community as we explore, experiment, and create together. Let's unlock the full potential of technology through theTechNexus Initiative.</p>
+    <div class="intiativeImg">
+        <div class="intiativeImgText">
+        <p><i class="fa-solid fa-handshake"></i></p>
+            <p class="cabin">
+                CONNECT
+            </p>
+        </div>
+        <div class="intiativeImgText">
+        <p><i class="fa-solid fa-people-group" style="color: #ffffff;"></i></p>
+            <p class="cabin">
+                COLLABORATE
+            </p>
+        </div>
+        <div class="intiativeImgText">
+        <p><i class="fa-solid fa-route"></i></p>
+            <p class="cabin">
+                GUIDE
+            </p>
+        </div>
+
+    </div>
+</div>
+</div>
+
+<!-- initiative end -->
+
+
+    <!-- message By Founder -->
+    <div class="messageContainer myContainer center" style="min-height: 90vh">
+      <div>
+      <h1 class=" roboto heading">Founder's Message: Our Vision Unveiled</h1>
+      <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="message center">
+                <div class="messageContent">
+                  <h1 class="roboto">
+                    " Empowering Tech Enthusiasts for Limitless Growth and
+                    Innovation "
+                  </h1>
+                  <p class="poppins">
+                    Welcome to TechNexus, the vibrant community where tech
+                    enthusiasts unite. Together, we fuel growth, foster
+                    innovation, and unlock the immense potential of technology.
+                    Join us on this thrilling journey, connect with like-minded
+                    individuals, and unleash your creativity. At TechNexus, we
+                    believe in the power of collaboration to transform the world.
+                    Let's shape a future where possibilities are endless and
+                    technology propels us to new heights.
+                  </p>
+                  <h5 class="roboto">
+                    <span>James Bond </span> <br> President of TechNexus
+                  </h5>
+                </div>
+                <div class="messageImage">
+                  <img src="./Image/t1-removebg-preview.png" alt="" />
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="message center">
+                <div class="messageContent">
+                  <h1 class="roboto">
+                    " Empowering Tech Enthusiasts for Limitless Growth and
+                    Innovation "
+                  </h1>
+                  <p class="poppins">
+                    Welcome to TechNexus, the vibrant community where tech
+                    enthusiasts unite. Together, we fuel growth, foster
+                    innovation, and unlock the immense potential of technology.
+                    Join us on this thrilling journey, connect with like-minded
+                    individuals, and unleash your creativity. At TechNexus, we
+                    believe in the power of collaboration to transform the world.
+                    Let's shape a future where possibilities are endless and
+                    technology propels us to new heights.
+                  </p>
+                  <h5 class="roboto">
+                    <span>James Bond </span> <br> President of TechNexus
+                  </h5>
+                </div>
+                <div class="messageImage">
+                  <img src="./Image/t2-removebg-preview.png" alt="" />
+                </div>
+              </div>
+          </div>
+          <div class="carousel-item">
+            <div class="message center">
+                <div class="messageContent">
+                  <h1 class="roboto">
+                    " Empowering Tech Enthusiasts for Limitless Growth and
+                    Innovation "
+                  </h1>
+                  <p class="poppins">
+                    Welcome to TechNexus, the vibrant community where tech
+                    enthusiasts unite. Together, we fuel growth, foster
+                    innovation, and unlock the immense potential of technology.
+                    Join us on this thrilling journey, connect with like-minded
+                    individuals, and unleash your creativity. At TechNexus, we
+                    believe in the power of collaboration to transform the world.
+                    Let's shape a future where possibilities are endless and
+                    technology propels us to new heights.
+                  </p>
+                  <h5 class="roboto">
+                    <span>James Bond </span> <br> President of TechNexus
+                  </h5>
+                </div>
+                <div class="messageImage">
+                  <img src="./Image/t3-removebg-preview.png" alt="" />
+                </div>
+              </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" style="padding-right: 10vw;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden" >Previous</span>
+        </button>
+        <button class="carousel-control-next" style="padding-left: 10vw;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+    </div>
+    <!-- message By Founder End-->
 
     <!-- Footer -->
-    <div class="footer container center">
+    <div class="footer myContainer center">
       <footer>
         <!-- footer Top Section -->
         <div class="footerTop">
-          <h3 class="heading">TechNexus, RGPV Bhopal</h3>
-          <p class="paragraph">
+          <h3 class="roboto">TechNexus, RGPV Bhopal</h3>
+          <p class="poppins">
             For Collaboration mail us at <br />
             <a href="">TechNexus@gmail.com</a>
           </p>
@@ -95,7 +230,7 @@
         <!-- footer Middle Section -->
         <div class="footerMid">
           <div class="LinkContainer">
-            <p class="footerHeading">Project Showcase</p>
+            <p class="footerHeading roboto">Project Showcase</p>
             <div class="footerLink">
               <a href="">Graphic Department</a>
               <a href="">Web Department</a>
@@ -104,7 +239,7 @@
           </div>
 
           <div class="LinkContainer">
-            <p class="footerHeading">Quick Links</p>
+            <p class="footerHeading roboto">Quick Links</p>
             <div class="footerLink">
               <a href="">Home</a>
               <a href="">Community</a>
@@ -113,7 +248,7 @@
           </div>
 
           <div class="LinkContainer">
-            <p class="footerHeading">About Us</p>
+            <p class="footerHeading roboto">About Us</p>
             <div class="footerLink">
               <a href="">Vision</a>
               <a href="">Team</a>
@@ -122,7 +257,7 @@
           </div>
 
           <div class="LinkContainer">
-            <p class="footerHeading">Conatct Us</p>
+            <p class="footerHeading roboto">Conatct Us</p>
             <div class="footerLink">
               <a href="">6263795460</a>
               <a href="">TechNexus@gmail.com</a>
@@ -131,7 +266,7 @@
         </div>
         <!-- footer Bottom Section -->
         <div class="footerBottom">
-          <p class="paragraph">Follow Us On</p>
+          <p class="poppins">Follow Us On</p>
           <div class="social">
             <a href=""> <i class="fa-brands fa-facebook"></i> </a>
             <a href=""> <i class="fa-brands fa-linkedin"></i> </a>
@@ -143,12 +278,16 @@
       </footer>
     </div>
     <!-- copyright -->
-    <div class="copyright">
-      <p class="paragraph">
+    <div class="copyright ">
+      <p class="poppins center">
         Copyright © 2023, All Right Reserved <span>TechNexus</span>.
       </p>
     </div>
-    <!-- Footer -->
+    <!-- Footer End-->
+    <!-- Javascript -->
     <script src="./index.js"></script>
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+  </body>
   </body>
 </html>
